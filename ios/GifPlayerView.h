@@ -2,6 +2,7 @@
 #ifdef RCT_NEW_ARCH_ENABLED
 #import <React/RCTViewComponentView.h>
 #import <UIKit/UIKit.h>
+#import <React/RCTViewManager.h>
 
 #ifndef GifPlayerViewNativeComponent_h
 #define GifPlayerViewNativeComponent_h
