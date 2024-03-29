@@ -1,6 +1,6 @@
 {
   "name": "react-native-gif-player",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "react native view component for GIF files",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

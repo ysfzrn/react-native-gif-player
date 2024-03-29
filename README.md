@@ -15,7 +15,7 @@ React Native Gif/Animated WebP Player View Component.
   </kbd>
   <kbd>
     <img
-      src="https://github.com/ysfzrn/react-native-gif-player/blob/main/assets/recordAndroid.webm?raw=true"
+      src="https://github.com/ysfzrn/react-native-gif-player/blob/main/assets/recordAndroid.gif?raw=true"
       title="Android Demo"
       float="right"
     >
