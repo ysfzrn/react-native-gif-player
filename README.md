@@ -18,6 +18,7 @@ React Native Gif/Animated WebP Player View Component.
       src="https://github.com/ysfzrn/react-native-gif-player/blob/main/assets/recordAndroid.gif?raw=true"
       title="Android Demo"
       float="right"
+      width=310
     >
   </kbd>
   <br>
