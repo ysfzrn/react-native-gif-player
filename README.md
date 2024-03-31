@@ -37,6 +37,7 @@ React Native's Image component can display GIFs but lacks a stop feature. react-
 - [x] Local/Remote Animated WebP Support (iOS has a performance issue with long animated WebP)..
 - [x] Watching Frames
 - [x] Jump to Frame
+- [x] Loop Count (if you want infinite loop, you can assign 0 to loopCount prop)
 - [x] Old/New Architecture Support
 
 ## Usage
