@@ -81,6 +81,49 @@ const App = () => {
       onError={handleOnError}
       onLoad={handleLoad}
     />
+
+    ...
+    <View style={styles.footerBottom}>
+      <IconButton
+        width={40}
+        height={33}
+        icon={ResetIcon}
+        onPress={() => {
+          if (gifPlayerRef.current !== null) {
+            gifPlayerRef.current.jumpToFrame(0);
+          }
+        }}
+      />
+      <IconButton
+        width={60}
+        height={60}
+        icon={paused ? PauseIcon : PlayIcon}
+        onPress={() => {
+          setState({ paused: !paused });
+        }}
+      />
+      <IconButton
+        width={40}
+        height={37}
+        icon={NextIcon}
+        onPress={async () => {
+          setState({ loading: true });
+          await randomGif();
+          setState({ paused: false });
+        }}
+      />
+      <IconButton
+        width={40}
+        height={40}
+        icon={LoopIcon}
+        tintColor={loopCount === 0 ? '#388e3c' : 'white'}
+        onPress={() => {
+          setState({ loopCount: loopCount === 0 ? 1 : 0 });
+        }}
+      />
+    </View>
+    ...
+
   );
 };
 ```
