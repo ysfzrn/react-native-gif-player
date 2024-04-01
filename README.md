@@ -1,8 +1,8 @@
 <h1 align="center">
-  React Native Gif Player
+  React Native Gif View Component
 </h1>
 
-React Native Gif/Animated WebP Player View Component.
+React Native Gif/Animated WebP View Component.
 
 </div>
 <p align="center" >
@@ -22,7 +22,7 @@ React Native Gif/Animated WebP Player View Component.
     >
   </kbd>
   <br>
-  <em>React Native Gif Player Example App</em>
+  <em>These buttons are only for the "example app", not inside the library, react-native-gif-player is just a view component</em>
 </p>
 
 React Native's Image component can display GIFs but lacks a stop feature. react-native-gif-player comes with a stop feature and additional capabilities.
@@ -37,6 +37,7 @@ React Native's Image component can display GIFs but lacks a stop feature. react-
 - [x] Local/Remote Animated WebP Support (iOS has a performance issue with long animated WebP)..
 - [x] Watching Frames
 - [x] Jump to Frame
+- [x] Loop Count (if you want infinite loop, you can assign 0 to loopCount prop)
 - [x] Old/New Architecture Support
 
 ## Usage
