@@ -187,9 +187,13 @@ public class GifPlayerViewComponent: UIImageView {
         displayLink?.isPaused = true
         handleStop()
     }
-    
+
     @objc public func jumpToFrame(frameNumber: Int){
-        currentIndex = 0;
+        guard frameNumber >= 0 && frameNumber < gifImages.count else {
+            return
+        }
+
+        currentIndex = frameNumber
         updateFrame()
     }
 
